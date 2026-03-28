@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card{
+    width: 300px;
+    margin: 40px auto;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+
+
+
+    
+}
+.image-container{
+    height: 150px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+}
+.annual-plan{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
