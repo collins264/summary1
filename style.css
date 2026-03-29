@@ -41,6 +41,7 @@ h3{
     width: fit-content;
     margin: auto;
     margin-bottom: 35px;
+    border-radius: 5px;
     
 }
 .annual-plan{
@@ -51,12 +52,12 @@ h3{
     
 }
 .btn{
-    width: 220px;
+    width: 240px;
     display: flex;
     justify-content: center;
     margin-left: 65px;
     margin-bottom: 20px;
-    padding: 6px;
+    padding: 10px;
     background-color: rgb(62, 62, 238);
     color: white;
     border-radius: 10px;
