@@ -10,14 +10,9 @@ body{
     align-items: center;
 }
 .profile-card{
-    width: 300px;
-    margin: 40px auto;
-    border: 2px solid black;
-    box-shadow: 0 0 10px;
-
-
-
-    
+    width: 350px;
+    margin: 40px auto; 
+    box-shadow: 0 0 10px;  
 }
 .image-container{
     height: 150px;
@@ -30,10 +25,64 @@ body{
 .header{
     padding: 20px;
     text-align: center;
+    
 }
-.annual-plan{
-    padding: 10px;
-    text-align: center;
+h3{
+    margin-bottom: 15px;
+    
+}
+.plan-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(241, 243, 241);
+    margin-bottom: 15px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 35px;
+    
+}
+.annual-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 55px;
+    
+}
+.btn{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    padding: 6px;
+    background-color: rgb(62, 62, 238);
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(193, 193, 209);
+}
+h6{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.icon-container{
+    margin-right: 10px;
+    font-size: 30px;
+    background-color: rgb(221, 219, 216);
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-plan{
+    margin-left: 14px;
+}
+.change-plan a{
+    text-decoration: none;
+    color: rgb(53, 53, 161);
 }
